@@ -1,0 +1,40 @@
+.cet,
+.how-it-works{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+
+}
+
+.how{
+    border: 1px solid #E5E5E5;
+ }
+
+.how-it-works{
+    cursor: pointer;
+}
+.cet div p{
+    font-weight: 600;
+    font-size: 14;
+}
+.cet h3{
+    color: #4D4D4D;
+    font-size: 18px;
+}
+
+.text-cet{
+    font-size: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.identifier{
+    padding: 20px;
+}
+#valor{
+    font-size: 13px;
+    
+}
+.img-pay{
+    padding: 10px 20px 40px 20px;
+
+}

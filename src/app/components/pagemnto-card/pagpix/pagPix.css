@@ -1,0 +1,46 @@
+.prcll {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px 0 20px;
+
+}
+
+.prcll div {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.loand {
+    animation: rotate 2s linear infinite;
+    color: #03d69d;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.card-button {
+    margin-top: 16px;
+    background-color: #03d69d;
+    width: 310px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-button p{
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}

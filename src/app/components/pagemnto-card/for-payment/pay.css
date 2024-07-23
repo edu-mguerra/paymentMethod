@@ -1,0 +1,91 @@
+.pix {
+    background-color: #ffff;
+    height: 900px;
+    width: 400px;
+    border: 2px solid #03d69d;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    box-sizing: border-box;
+    overflow: auto
+}
+
+
+.pix::-webkit-scrollbar {
+    width: 0; 
+}
+
+.doubt {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.img-woovi {
+    margin-top: -21px;
+}
+
+.tile-pag {
+    font-size: 25px;
+    padding: 5px;
+}
+
+.img-qr img {
+    width: 320px;
+    height: 320px;
+    padding: 5px;
+
+}
+
+.img-qr {
+    width: 320px;
+    border: 2px solid #03d69d;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+.copy-qr{
+    margin-top: 16px;
+    background-color: #133a6f;
+    width: 310px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy-qr p{
+    text-align: center;
+    color: #ffff;
+}
+.prazo{
+    font-weight: 200;
+    margin-top: 15px;
+}
+.prazo span{
+    font-weight: 700;
+}
+
+.parcelass{
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .pix{
+        height: 700px;
+        width: 100%;
+        padding: 5px;
+    }
+    .io{
+        margin-left: 50px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1441px){
+    .pix{
+        height: 800px;
+
+    }
+  }

@@ -1,0 +1,128 @@
+.card1 {
+    background-color: #ffff;
+    height: 900px;
+    width: 400px;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    overflow: auto;
+}
+
+.card1::-webkit-scrollbar {
+    width: 0;
+    /* Largura da barra de rolagem vertical */
+
+}
+
+.card1-none {
+    display: block;
+}
+
+
+.n-card1,
+.n-card3 {
+    background: none;
+    width: 39%;
+    margin: 0;
+    display: flex;
+    margin-left: -106px;
+}
+
+.n-card4 {
+    background: none;
+    width: 25%;
+    margin: 0;
+    display: flex;
+    margin-left: -56px
+}
+
+.n-cpf {
+    background: none;
+    width: 10%;
+    margin: 0;
+    display: flex;
+    margin-left: -140px;
+}
+
+.n-card2 {
+    background: none;
+    width: 45%;
+    margin: 0;
+    display: flex;
+    margin-left: -106px;
+}
+
+.inputs-card input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.input-fex {
+    display: flex;
+}
+
+.inputs-card legend .n-card2 {
+    width: 60%;
+    margin-left: -106px;
+}
+
+.n-card3 {
+    width: 56%;
+    margin-left: -36px;
+}
+
+.pag {
+    margin-top: 16px;
+    background-color: #133a6f;
+    width: 310px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+}
+
+@media (max-width: 767px) {
+    .card1 {
+        height: 700px;
+        width: 100%;
+        padding: 5px;
+    }
+
+    .io {
+        margin-left: 50px;
+    }
+
+    .n-card1 {
+        width: 50%;
+        margin-left: -70px;
+    }
+
+    .n-card2 {
+        width: 55%;
+        margin-left: -66px;
+    }
+
+    .n-card3 {
+        width: 76%;
+        margin-left: -21px;
+    }
+    .n-card4{
+        width: 35%;
+        margin-left: -44px;
+    }
+
+    .n-cpf {
+        width: 13%;
+        margin-left: -100px;
+    }
+
+}

@@ -1,0 +1,170 @@
+.none2{
+    display: none;
+}
+.area-pag {
+    background-color: #ffff;
+    height: 900px;
+    width: 400px;
+    border: 2px solid #03d69d;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    overflow: auto;
+}
+.area-pag::-webkit-scrollbar {
+    width: 0; /* Largura da barra de rolagem vertical */
+
+}
+.hrd{
+    margin-top: -70px;
+}
+
+.hrd-img {
+    width: 30%;
+    height: 30px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.opção {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opção h3 {
+    font-weight: 400;
+}
+
+.opção span {
+    font-weight: 700;
+}
+
+fieldset {
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+fieldset:hover{
+    border: 1px solid #03D69D;
+}
+input[type=radio].input-color {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    outline: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+input[type=radio].input-color {
+    color: #03D69D;
+    cursor: pointer;
+}
+
+input[type=radio]:hover {
+    background-color: #03D69D; 
+    border-color: #03D69D; 
+  }
+  
+legend {
+    margin-left: -150px; 
+    font-weight: 700;
+    background-color: #E5E5E5;
+    width: 67px;
+    height: 27px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cash {
+    color: #03D69D;
+    display: flex;
+    padding-top: 10px;
+
+
+}
+
+span {
+    font-weight: 600;
+
+}
+.back{
+    background-color: #133A6F;
+    color: #fff;
+    margin-top: 10px;
+    border-bottom-right-radius: 50px;
+}
+.back p{
+   
+    padding-left: 0px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+
+}
+
+fieldset .prcl{
+    width: 150px;
+    margin-left: -100px
+}
+.prc-map{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+
+}
+.fild-map{
+    border-top: none;
+    margin-top: -10px;
+}
+
+.foot{
+    font-weight: 300;
+    font-size: 15px;
+    padding-bottom: 20px;
+    color: #B2B2B2;
+    
+}
+.img-pag{
+    margin-bottom: 10px;
+}
+.qq{
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+@media (max-width: 767px) {
+    .area-pag{
+        height: 700px;
+        width: 300px;
+    }
+    legend{
+        margin-left: -100px;
+    }
+    fieldset .prcl{
+        width: 150px;
+        margin-left: -50px
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1441px){
+    .area-pag{
+        height: 800px;
+
+    }
+  }
